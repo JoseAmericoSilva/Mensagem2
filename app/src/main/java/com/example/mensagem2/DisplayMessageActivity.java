@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
 
         TextView textView = findViewById(R.id.textView);
-        textView.setText(message);
+        textView.setText(Message);
     }
 
 
